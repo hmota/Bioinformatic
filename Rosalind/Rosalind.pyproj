@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Rosalind.py</StartupFile>
+    <StartupFile>CountingDnaNucleotides.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Rosalind.py" />
+    <Compile Include="CountingDnaNucleotides.py" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
