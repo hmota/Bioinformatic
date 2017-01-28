@@ -5,9 +5,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CountingDnaNucleotides.py</StartupFile>
-    <SearchPath>
-    </SearchPath>
+    <StartupFile>pythonVillage\ini1.py</StartupFile>
+    <SearchPath>global\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>Rosalind</Name>
@@ -22,7 +21,18 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="CountingDnaNucleotides.py" />
+    <Compile Include="global\common.py" />
+    <Compile Include="pythonVillage\ini1.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="dataset\" />
+    <Folder Include="global\" />
+    <Folder Include="output\" />
+    <Folder Include="pythonVillage\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="dataset\rosalind_ini1.txt" />
+    <Content Include="output\rosalind_ini1_output.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
