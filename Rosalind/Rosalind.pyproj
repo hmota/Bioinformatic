@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pythonVillage\ini3.py</StartupFile>
+    <StartupFile>pythonVillage\ini4.py</StartupFile>
     <SearchPath>global\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,9 +22,13 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="global\common.py" />
+    <Compile Include="pythonVillage\ini4.py" />
     <Compile Include="pythonVillage\ini3.py" />
     <Compile Include="pythonVillage\ini2.py" />
     <Compile Include="pythonVillage\ini1.py" />
+    <Compile Include="pythonVillage\ini4_Test.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dataset\" />
