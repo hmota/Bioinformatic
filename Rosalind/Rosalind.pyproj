@@ -49,7 +49,6 @@
     <Content Include="dataset\rosalind_ini3.txt" />
     <Content Include="dataset\rosalind_ini4.txt" />
     <Content Include="dataset\rosalind_ini5.txt" />
-    <Content Include="output\rosalind_ini1_output.txt" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
