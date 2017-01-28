@@ -10,7 +10,7 @@ Bravely talking to his feet
 Brave, brave, brave, brave Sir Robin
 He beat a very brave retreat"""
 
-output = """Yes, brave Sir Robin turned about
+expected = """Yes, brave Sir Robin turned about
 And gallantly he chickened out
 Bravely talking to his feet
 He beat a very brave retreat"""
@@ -19,7 +19,7 @@ class Test_ini5_Test(unittest.TestCase):
     def testEvenLines(self):
         lines = dataset.splitlines(True)
         text = evenLines(lines)
-        self.assertEqual(text, output)
+        self.assertEqual(text, expected)
 
 #if __name__ == '__main__':
 #    unittest.main()
