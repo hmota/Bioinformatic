@@ -13,4 +13,6 @@ def writeOutput(id, output):
     with open(currentFolder+'/output/rosalind_'+id+'_output.txt', 'w+') as f:
         f.write(str(output))
     f.closed
-    print 'output '+id+' completed'
+    print '##### output '+id+' #####\n\n'
+    print output
+    print '\n\n##### completed #####\n\n'
