@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pythonVillage\ini1.py</StartupFile>
+    <StartupFile>pythonVillage\ini2.py</StartupFile>
     <SearchPath>global\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="global\common.py" />
+    <Compile Include="pythonVillage\ini2.py" />
     <Compile Include="pythonVillage\ini1.py" />
   </ItemGroup>
   <ItemGroup>
@@ -32,6 +33,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="dataset\rosalind_ini1.txt" />
+    <Content Include="dataset\rosalind_ini2.txt" />
     <Content Include="output\rosalind_ini1_output.txt" />
   </ItemGroup>
   <PropertyGroup>

@@ -11,6 +11,6 @@ def readDataset(id):
 def writeOutput(id, output):
     currentFolder = os.getcwd()
     with open(currentFolder+'/output/rosalind_'+id+'_output.txt', 'w+') as f:
-        f.write(output)
+        f.write(str(output))
     f.closed
-    print 'output completed'
+    print 'output '+id+' completed'
