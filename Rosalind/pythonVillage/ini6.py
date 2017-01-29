@@ -1,6 +1,6 @@
 '''
 #####   Dictionaries
-URL: http://rosalind.info/problems/ini5/
+URL: http://rosalind.info/problems/ini6/
 '''
 #funcao retorna contagem de repeticoes de cada palavra
 def countWords(text):
