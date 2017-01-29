@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>stronghold\dna.py</StartupFile>
+    <StartupFile>stronghold\rna.py</StartupFile>
     <SearchPath>global\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -36,6 +36,8 @@
     <Compile Include="pythonVillage\ini4_Test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stronghold\rna.py" />
+    <Compile Include="stronghold\rna_Test.py" />
     <Compile Include="stronghold\dna_Test.py" />
     <Compile Include="stronghold\dna.py" />
   </ItemGroup>
@@ -47,6 +49,9 @@
     <Folder Include="pythonVillage\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="dataset\rosalind_rna.txt" />
+    <Content Include="dataset\rosalind_dna.txt" />
+    <Content Include="dataset\rosalind_ini6.txt" />
     <Content Include="dataset\rosalind_test2.txt" />
     <Content Include="dataset\rosalind_test1.txt" />
     <Content Include="dataset\rosalind_ini1.txt" />
