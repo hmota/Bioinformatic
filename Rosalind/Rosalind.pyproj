@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>b9988dc4-f754-42ec-81fe-c1abb24712dc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>pythonVillage\ini6.py</StartupFile>
+    <StartupFile>stronghold\dna.py</StartupFile>
     <SearchPath>global\</SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
@@ -36,10 +36,13 @@
     <Compile Include="pythonVillage\ini4_Test.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stronghold\dna_Test.py" />
+    <Compile Include="stronghold\dna.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dataset\" />
     <Folder Include="global\" />
+    <Folder Include="stronghold\" />
     <Folder Include="output\" />
     <Folder Include="pythonVillage\" />
   </ItemGroup>
